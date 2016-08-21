@@ -1,0 +1,157 @@
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+/* Buttons */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn{
+	background-color: #248a83;
+	color: #fff;
+	border-radius: 0;
+	cursor: pointer;
+	font-family: Novecento, sans-serif;
+	font-size: 1rem;
+	line-height: 1;
+	padding: .75rem 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+
+	&:hover,
+	a:hover {
+   background-color: #1a6560;
+	 color: #fff;
+ 	}
+
+	&:active,
+	a:active,
+	&:focus,
+	a:focus {
+	 background-color: #1a6560;
+	 color: #fff;
+	}
+}
+
+.read-more,
+.read-entry,
+.single-post-social{
+	background-color: transparent;
+	border: 1px solid #000;
+	border-radius: 0;
+	color: #000;
+	cursor: poiter;
+	font-family: Novecento, sans-serif;
+	font-size: .9rem;
+	line-height: 1;
+	padding: .75rem 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&:hover,
+	a:hover {
+   background-color: #248a83;
+	 color: #fff;
+	 border: none;
+ 	}
+
+	&:active,
+	a:active,
+	&:focus,
+	a:focus {
+	 background-color: #248a83;
+	 color: #fff;
+	 border: none;
+	}
+}
+
+.adventure-read-more{
+  width: 130px;
+  padding: .5rem;
+  text-align: center;
+	font-family: Novecento, sans-serif;
+  background-color: transparent;
+	text-transform: uppercase;
+  border: 1px solid #fff;
+  color: #fff;
+
+	&:hover,
+  a:hover{
+    background-color: #248a83;
+    color: #fff;
+    border: none;
+  }
+
+	&:active,
+  a:active,
+	&:focus,
+  a:focus,
+	&:visited,
+  a:visited{
+    background-color: #248a83;
+    color: #fff;
+    border:none;
+  }
+}
+
+.adventures-read-more{
+  width: 130px;
+  padding: .7rem 1.5rem;
+  text-align: center;
+	font-family: Novecento, sans-serif;
+  background-color: transparent;
+	text-transform: uppercase;
+  border: 1px solid #fff;
+  color: #fff;
+
+	&:hover,
+  a:hover{
+    background-color: #248a83;
+    color: #fff;
+    border: none;
+  }
+
+	&:active,
+  a:active,
+	&:focus,
+  a:focus,
+	&:visited,
+  a:visited{
+    background-color: #248a83;
+    color: #fff;
+    border:none;
+  }
+}
+
+/* Fields */
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: #404040;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+
+	&:focus {
+		color: #111;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: 3px;
+}
+
+textarea {
+	padding-left: 3px;
+	width: 100%;
+}
