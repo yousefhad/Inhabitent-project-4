@@ -606,12 +606,8 @@ a:active, a:hover {
     float: left;
     width: 0;
     white-space: nowrap;
-    content: "..............................................."
-}
-.price {
-    float: right;
-    padding-left: .25rem;
-    background: #fff
+    content: "........."
+
 }
 .single-product-area {
     width: 1120px;
@@ -638,12 +634,6 @@ a:active, a:hover {
     text-align: left;
     font-weight: 800;
     color: #d99054
-}
-.single-price {
-    font-family: Novecento, sans-serif;
-    font-size: 1.7rem;
-    margin-top: 0;
-    text-transform: uppercase
 }
 .entry-title {
     text-align: left
@@ -762,26 +752,14 @@ a:active, a:hover {
     width: 100%;
     background-color: #f4f4f4
 }
-.about-content {
+..aboutmain {
     margin: 3rem auto;
     max-width: 800px
 }
-.about-content h1 {
+..aboutmain h1 {
     font-size: 2rem
 }
-.about-header {
-    display: flexbox;
-    display: flex;
-    flex-direction: column;
-    flex-direction: column;
-    flex-pack: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
-    font-weight: 700
-}
-.about-header h1 {
-    font-size: 3rem
+
 }
 .our-story {
     margin-bottom: 2rem
@@ -837,7 +815,7 @@ a:active, a:hover {
 .site-footer {
     background-image: url(../../images/dark-wood.png);
     color: #fff;
-    height: 250px
+    height: 425px
 }
 .footer-blocks {
     display: flexbox;
@@ -1033,3 +1011,34 @@ a:active, a:hover {
     margin: 0;
     padding: 0
 }
+
+
+.aboutmain .entry-header {
+    background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ), url(http://tent.academy.red/wp-content/uploads/2016/04/about-hero.jpg) no-repeat center bottom;
+    background-size: cover, cover; margin-top:-75px; margin-left: -80px; width: 1280px;
+}
+
+.hero {
+    color: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.entry-content{
+    text-align: center;
+}
+
+
+
+
+
+
+

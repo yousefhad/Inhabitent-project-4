@@ -357,16 +357,7 @@ table {
     color: #fff;
     border: none
 }
-.adventure-read-more {
-    width: 130px;
-    padding: .5rem;
-    text-align: center;
-    font-family: Novecento, sans-serif;
-    background-color: transparent;
-    text-transform: uppercase;
-    border: 1px solid #fff;
-    color: #fff
-}
+
 input[type=email], input[type=password], input[type=search], input[type=text], input[type=url], textarea {
     color: #404040;
     border: 1px solid #e1e1e1;
@@ -521,7 +512,7 @@ a:active, a:hover {
     width: 17px
 }
 .contact-meta {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex
 }
 .day-of-week {
@@ -567,9 +558,9 @@ a:active, a:hover {
     padding-top: 4.5rem
 }
 .shop-nav-container {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
-    -ms-flex-pack: center;
+    flex-pack: center;
     justify-content: center;
     font-family: Novecento;
     font-size: 1.5rem;
@@ -587,17 +578,17 @@ a:active, a:hover {
     padding-top: 4.5rem
 }
 .product-grid {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
-    -ms-flex-pack: justify;
+    flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     flex-wrap: wrap;
     margin-bottom: 1.5rem
 }
 .product-grid-item {
     border: 1px solid #e1e1e1;
-    -ms-flex: 0 1 23%;
+    flex: 0 1 23%;
     flex: 0 1 23%;
     max-width: 23%;
     margin-bottom: 1.5rem
@@ -615,12 +606,8 @@ a:active, a:hover {
     float: left;
     width: 0;
     white-space: nowrap;
-    content: "..............................................."
-}
-.price {
-    float: right;
-    padding-left: .25rem;
-    background: #fff
+    content: "........."
+
 }
 .single-product-area {
     width: 1120px;
@@ -632,9 +619,9 @@ a:active, a:hover {
     margin-top: 3rem
 }
 .single-product .hentry {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
-    -ms-flex-pack: justify;
+    flex-pack: justify;
     justify-content: space-between
 }
 .product-content-wrapper, .product-image-wrapper {
@@ -648,12 +635,6 @@ a:active, a:hover {
     font-weight: 800;
     color: #d99054
 }
-.single-price {
-    font-family: Novecento, sans-serif;
-    font-size: 1.7rem;
-    margin-top: 0;
-    text-transform: uppercase
-}
 .entry-title {
     text-align: left
 }
@@ -662,7 +643,7 @@ a:active, a:hover {
 }
 .content-area {
     width: 1120px;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -734,7 +715,7 @@ a:active, a:hover {
     font-size: 1.8rem
 }
 .comment-form label {
-    font-family: Novecento, sans-serif;
+    font-family: Novecento;
     text-transform: uppercase
 }
 .comment-form textarea {
@@ -771,52 +752,17 @@ a:active, a:hover {
     width: 100%;
     background-color: #f4f4f4
 }
-.about-content {
+..aboutmain {
     margin: 3rem auto;
     max-width: 800px
 }
-.about-content h1 {
+..aboutmain h1 {
     font-size: 2rem
 }
-.about-header {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
-    font-weight: 700
-}
-.about-header h1 {
-    font-size: 3rem
+
 }
 .our-story {
     margin-bottom: 2rem
-}
-.adventure-container {
-    max-width: 800px;
-    margin: 3rem auto 4rem
-}
-.adventure-title {
-    text-align: left;
-    line-height: 1.2;
-    font-weight: 600;
-    font-size: 2.5rem;
-    margin-bottom: 1rem
-}
-.adventure-author {
-    text-transform: uppercase;
-    font-family: Novecento, sans-serif;
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem
-}
-.adventure-content {
-    padding-top: 1rem
-}
-.adventure-content p {
-    margin-bottom: 1.5rem
 }
 
 .search-header {
@@ -843,23 +789,23 @@ a:active, a:hover {
 .site-header {
     background-color: hsla(0, 0%, 100%, .8);
     border-bottom: 1px solid #e1e1e1;
-    padding: .5rem 0;
+    padding: .5rem ;
     position: fixed;
     width: 100%;
-    z-index: 1
+    height: 6vh;
+
 }
 .site-header .container {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
-    -ms-flex-align: center;
+    flex-align: center;
     align-items: center;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     text-transform: uppercase
 }
 .site-header h1 {
     background: url(../../images/logos/inhabitent-logo-tent.svg) no-repeat;
-    background-size: 50px 30px;
+    background-size: 45px 30px;
     height: 30px;
     margin: 0;
     overflow: hidden;
@@ -869,10 +815,10 @@ a:active, a:hover {
 .site-footer {
     background-image: url(../../images/dark-wood.png);
     color: #fff;
-    height: 250px
+    height: 425px
 }
 .footer-blocks {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex
 }
 .footer-block-item {
@@ -924,15 +870,15 @@ a:active, a:hover {
     margin-left: auto
 }
 .home-hero {
-    -ms-flex-align: center;
+    flex-align: center;
     align-items: center;
     background: linear-gradient(180deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../../images/home-hero.jpg) no-repeat top;
     background-size: cover, cover;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-pack: center;
+    flex-direction: column;
+    flex-pack: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
@@ -954,7 +900,7 @@ a:active, a:hover {
 .product-type-wrapper {
     border: 1px solid #e1e1e1;
     border-top-width: 5px;
-    -ms-flex: 0 1 23%;
+  flex: 0 1 23%;
     flex: 0 1 23%;
     max-width: 23%;
     padding: 1rem 1rem 1.5rem;
@@ -964,8 +910,8 @@ a:active, a:hover {
     border-color: #d99054
 }
 .product-type-wrapper .logo {
-    height: 65px;
-    width: 65px
+    height: 50px;
+    width: 50px
 }
 .shop-stuff-description {
     font-size: 14px
@@ -974,23 +920,15 @@ a:active, a:hover {
     margin-bottom: 4.5rem
 }
 .inhabitent-journals ul {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
-    -ms-flex-pack: justify;
+    flex-pack: justify;
     justify-content: space-between;
     list-style-type: none;
     padding-left: 0
 }
-.inhabitent-journals ul li {
-    border: 1px solid #e1e1e1;
-    -ms-flex: 0 1 32%;
-    flex: 0 1 32%
-}
-.inhabitent-journals ul li h2 {
-    font-size: 1.3rem;
-    letter-spacing: 2px;
-    line-height: normal
-}
+
+
 .thumbnail-wrapper {
     background-color: #e1e1e1;
     height: 250px;
@@ -1020,17 +958,17 @@ a:active, a:hover {
 }
 
 .bottom-box {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
-    -ms-flex-pack: justify;
+    flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
     flex-wrap: nowrap;
     margin-top: 1rem
 }
 
 .menu-main-navigation {
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex
 }
 .header-search .search-toggle {
@@ -1063,7 +1001,7 @@ a:active, a:hover {
     text-transform: uppercase;
     border-radius: 0;
     margin: 0;
-    width: 200px;
+    width: 250px;
     outline: none
 }
 .search-submit {
@@ -1073,3 +1011,34 @@ a:active, a:hover {
     margin: 0;
     padding: 0
 }
+
+
+.aboutmain .entry-header {
+    background: linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ), url(http://tent.academy.red/wp-content/uploads/2016/04/about-hero.jpg) no-repeat center bottom;
+    background-size: cover, cover; margin-top:-75px; margin-left: -80px; width: 1280px;
+}
+
+.hero {
+    color: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.entry-content{
+    text-align: center;
+}
+
+
+
+
+
+
+
