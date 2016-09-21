@@ -1,10 +1,9 @@
-# Project4
-# Inhabitent
-
+# Project4-Inhabitent
 
 <h2>Summary</h2>
 ###
-
+Inhabitent is a Wordpress website created with a custom theme. The website has custom widgets, 
+taxonomy types, and custom post types.
 
 ##Languages and tools used:
 ###
@@ -18,5 +17,5 @@
 
 <br>
 ## Inhabitent design
-<hr>
+
 ![Alt text](./themes/inhabitent-theme/images/comps/Homepage.png "inhabitent")
