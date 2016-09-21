@@ -1,0 +1,6 @@
+.login h1 a{
+  width: auto;
+  height: 60px;
+  background-image: url(../../images/logos/inhabitent-logo-text-dark.svg) !important;
+  background-size: contain;
+}
