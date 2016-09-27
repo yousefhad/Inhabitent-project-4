@@ -29,13 +29,19 @@ function inhabitent_remove_submenus() {
 add_action( 'admin_init', 'inhabitent_remove_submenus', 102 );
 
 // /*change WordPress logo to custom logo*/
+function inhabitent_login_logo() {
+  echo '<style type="text/css">
+  h1 a { background-image: url('.get_bloginfo('template_directory').'/images/logos/inhabitent-logo-text-dark.svg) !important; }
+  </style>';
+}
+add_action('login_head', 'inhabitent_login_logo');
 
+//custom login for theme
 function inhabitent_custom_login() {
-	echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/build/css/customlogin.css" />';
+  echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_directory_uri() . '/build/css/customlogin.css" >';
 }
 
 add_action('login_head', 'inhabitent_custom_login');
-
 
 // add function that removes "powered by wordpress"
 function inhabitent_login_caption(){
@@ -56,11 +62,11 @@ function inhabitent_about_header() {
 		if(!is_page_template( 'about.php' )){
 			return;
 }
-        $background_image = CFS()->get('hero_image');
+        $imageUrl= CFS()->get('hero_image');
         $custom_css = "
               .about-header{
                         background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%),
-												url('$background_image') no-repeat center bottom;
+												url('$imageUrl') no-repeat center bottom;
 												background-size: cover;
                 }";
         wp_add_inline_style( 'inhbitent-style', $custom_css );
@@ -68,15 +74,16 @@ function inhabitent_about_header() {
 add_action( 'wp_enqueue_scripts', 'inhabitent_about_header' );
 
 // show more than 10products and in alphabetical order (default: 10, list by date)
-function inhabitent_filter_product_query($query){
-		if( is_post_type_archive( 'product' ) && !is_admin() && $query->is_main_query()){
-			$query->set('orderby', 'title');
-			$query->set('order', 'ASC');
-			$query->set('posts_per_page', 16);
-		}
-}
-add_action('pre_get_posts', 'inhabitent_filter_product_query' );
+function inhabitent_filter_product_query( $query ) {
 
+    if ( (is_post_type_archive('product') || is_tax('product_type') ) && !is_admin() && $query->is_main_query() ) {
+        $query->set( 'orderby', 'title' );
+        $query->set( 'order', 'ASC' );
+        $query->set( 'posts_per_page', 16 );
+    }
+}
+
+add_action( 'pre_get_posts', 'inhabitent_filter_product_query' );
  /**
   * Customize excerpt length and style.
   *
@@ -126,12 +133,4 @@ add_action('pre_get_posts', 'inhabitent_filter_product_query' );
  remove_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
  add_filter( 'get_the_excerpt', 'red_wp_trim_excerpt' );
 
- /**
-  * adding custom JavaScript file to searchbox
-  */
- function inhabitent_javascript_scripts() {
-
- 	wp_enqueue_script( 'inhabitent-custom_js', get_template_directory_uri() . '/js/custom.js');
-
- }
- add_action( 'wp_enqueue_scripts', 'inhabitent_javascript_scripts' );
+ 

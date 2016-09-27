@@ -1,11 +1,12 @@
 html {
-	font-family: Merriweather, sans-serif;
+	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
 
 body {
 	margin: 0;
+
 }
 
 article,
@@ -119,7 +120,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
+	font-family: $font_main;
 	font-size: 1em;
 }
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact Page 
+ * Template Name: Contact Page
  *
  * @package RED_Starter_Theme
  */

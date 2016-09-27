@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Single-Product Template
+ * Template Name: Single Product Template
  *
  * @package RED_Starter_Theme
  *
@@ -18,6 +18,14 @@ get_header(); ?>
       		<div class="product-image-wrapper"><?php if ( has_post_thumbnail() ) : ?>
       		<?php the_post_thumbnail( 'large' ); ?>
 					<?php endif; ?></div>
+
+      	<div class="product-content-wrapper">
+						<div class="single-product-header">
+							<?php the_title( '<h1 class="single-product-title">', '</h1>' ); ?>
+						</div><!-- .entry-header -->
+          <span class="single-price"><?php echo CFS()->get( 'price' ); ?></span><!--Price-->
+      		<?php the_content(); ?>
+
 					<div class="social-buttons">
 						<button class="single-post-social"><i class="fa fa-facebook"></i> Like</button>
 						<button class="single-post-social"><i class="fa fa-twitter"></i> Tweet</button>

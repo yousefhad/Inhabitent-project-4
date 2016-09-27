@@ -2,18 +2,17 @@
  /**
  *
  * @package   Inhabitent-Functionality
- * @author    yousef <yousefhad@yahoo.com>
+ * @author    Youssef
  * @license   GPL-2.0+
- * @copyright yousef
+ * @copyright 
  *
  * @wordpress-plugin
  * Plugin Name: Inhabitent-Functionality
  * Description: This very important plugin contains all of the core functionality for this website so that it remains theme-independent.
  * Version:     1.0.0
- * Author:      yousef
+ * Author:      Youssef
  * License:     GPL-2.0+
- * License URI: http://www.http://www.redacademy.com
- 
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 // If this file is called directly, abort.
@@ -49,5 +48,12 @@ include_once( RF_DIR . '/lib/functions/post-types.php' );
  * @since 1.0.0
  */
 include_once( RF_DIR . '/lib/functions/taxonomies.php' );
+
+/**
+ * Adventures
+ *
+ * @since 1.0.0
+ */
+include_once( RF_DIR . '/lib/functions/adventures.php' );
 
 

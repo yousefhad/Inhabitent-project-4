@@ -111,7 +111,7 @@
   margin-bottom: 1.5rem;
 }
 
-/*///// Latest Adventures /////*/
+/*********** Latest Adventures **********/
 .inhabitent-adventures{
   margin-bottom: 3rem;
 }
@@ -132,15 +132,6 @@
     display: block;
   }
 
-  &:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0,0,0,.35);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
 }
 
 .header-one{
@@ -169,11 +160,11 @@
   flex-direction: column;
   position: absolute;
   z-index: 10;
-  margin: 2rem;
+  margin: 1rem;
   width: 450px;
 
   .title-two{
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.5;
     color: #fff;
     margin-bottom: 2rem;
@@ -190,14 +181,15 @@
   flex-direction: column;
   position: absolute;
   z-index: 10;
-  padding: 1.5rem;
+margin-top: 1rem;
+  padding:2rem;
   width: 235px;
 
   .title-three{
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1.3rem;
+    line-height: 1.4;
     color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
     &:hover,
     &focus{

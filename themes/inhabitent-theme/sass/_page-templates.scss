@@ -1,8 +1,5 @@
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
 
-/*///////////// Shop Page (Archive-Product) /////////////*/
+/*----------------- Shop Page (Archive-Product) -----------------*/
 .archive-product-area{
   padding-top: 4.5rem;
 }
@@ -10,15 +7,19 @@
 .shop-nav-container{
   display: flex;
   justify-content: center;
-  font-family: Novecento;
-  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.2rem;
   padding-bottom: 1.5rem;
 
   a{
     margin: 0 1rem;
   }
 }
+.shop-nav{
+  font-family:$font_second;
 
+}
 .page-header{
   border-bottom: 1px dashed #e1e1e1;
   margin-bottom: 40px;
@@ -51,22 +52,29 @@
 
 .product-title{
   background: #fff;
-  padding-right: .25rem;
-  display: inline;
-  font-size: .9rem;
+display: inline;
+font-size: 16px;
+font-size: 1rem;
+font-weight: 400;
+font-family: $font-main;
+letter-spacing: 0;
+line-height: 1.75;
+padding-right: .25rem;
+text-transform: none;
+
 }
 
 .product-title:before{
   float: left;
   width:0px;
   white-space: nowrap;
-  content: "...............................................";
+  content: "..................................................";
 }
-
-.price{
+.product-grid-item .price{
   float: right;
   padding-left: .25rem;
   background: #fff;
+
 }
 
 
@@ -105,7 +113,7 @@
 }
 
 .single-price{
-  font-family: Novecento, sans-serif;
+  font-family: $font_main;
   font-size: 1.7rem;
   margin-top: 0;
   text-transform: uppercase;
@@ -169,7 +177,7 @@
     background-color: #248a83;
     color: #fff;
     font-size: 1rem;
-    font-family: Novecento;
+    font-family: $font_main;
     padding: .3rem 1rem;
     max-width: 55%;
     position: absolute;
@@ -181,7 +189,7 @@
 /*///////////// Single Blog Posts (single journal) ///////////// */
 
 .entry-footer{
-  font-family: Novecento, sans-serif;
+  font-family: $font_main;
   text-transform: uppercase;
 }
 
@@ -217,7 +225,7 @@
 .comment-form{
 
   label{
-    font-family: Novecento, sans-serif;
+    font-family: $font_main;
     text-transform: uppercase;
   }
   textarea{
@@ -309,7 +317,7 @@
 
 .adventure-author{
   text-transform: uppercase;
-  font-family: Novecento, sans-serif;
+  font-family: $font_main;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
@@ -331,10 +339,10 @@
 }
 
 .adventure-item{
-  flex: 0 1 49%;
+  flex: 0 1 48%;
   margin-bottom: 1.5rem;
   position: relative;
-  max-width: 49%;
+  max-width: 48%;
 }
 
 .adventure-item:before{
@@ -357,7 +365,6 @@
 .adventure-images img{
   left: 50%;
   max-height: 550px;
-  max-width: none;
   width: auto;
   height: auto;
   position: absolute;
@@ -424,7 +431,7 @@
 .search-pagination .page-numbers{
   background-color: #248a83;
   padding: .5rem 1rem;
-  font-family: Novecento, sans-serif;
+  font-family: $font_main;
   text-transform: uppercase;
   color: #fff;
 }

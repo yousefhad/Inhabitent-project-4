@@ -7,7 +7,7 @@
 
 ?>
 
-			</div><!-- #content -->
+			<div><!-- #content -->
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="footer-blocks container">
@@ -17,7 +17,7 @@
 							<h3>Contact Info</h3>
 							<p class="contact-meta"><i class="fa fa-envelope"></i>
 								 <a href="mailto:info@habitent.com">&nbsp;info@inhabitent.com</a></p>
-							<p class="contact-meta"><i class="fa fa-phone"></i><a href="tel:604-819-23">&nbsp;604-819-23</a></p>
+							<p class="contact-meta"><i class="fa fa-phone"></i><a href="tel:604-819-2354">&nbsp;604-819-23</a></p>
 							<p class="contact-meta">
 								<i class="fa fa-facebook-square" aria-hidden="true"></i>
 								<i class="fa fa-twitter-square" aria-hidden="true"></i>
@@ -37,7 +37,7 @@
 
 					<div class="footer-block-item">
 						<div class="text-logo">
-							<a href="" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/logos/inhabitent-logo-text.svg" alt="inhabitent logo" /></a>
+							<a href="" rel="home"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logos/inhabitent-logo-text.svg" alt="inhabitent logo"></a>
 						</div>
 					</div>
 				</div>

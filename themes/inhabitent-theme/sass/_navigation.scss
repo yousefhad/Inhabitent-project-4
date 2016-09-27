@@ -28,7 +28,7 @@ a {
 /* Menus */
 
 .main-navigation {
-		font-family: Novecento;
+		font-family: $font_second;
 		clear: both;
 		text-transfrom: uppercase;
 
@@ -103,33 +103,11 @@ a {
 .main-navigation.toggled ul {
 	display: block;
 }
-
-@media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation ul {
-		display: block;
-	}
-}
-
-.comment-navigation,
-.posts-navigation,
-.post-navigation {
-
-	.site-main & {
-		margin: 0;
-		overflow: hidden;
-	}
-
-	.nav-previous {
-		float: left;
-		width: 50%;
-	}
-
-	.nav-next {
-		float: right;
-		text-align: right;
-		width: 50%;
-	}
+@media screen and (min-width:600px) {
+    .menu-toggle {
+        display: none
+    }
+    .main-navigation ul {
+        display: block
+    }
 }

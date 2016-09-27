@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Archive Product Template
+ * Template Name: Archive Product 
  *
  * @package RED_Starter_Theme
  *

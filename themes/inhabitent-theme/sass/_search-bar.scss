@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.header-search .search-toggle{
+.header-search {
   color: #248a83;
   padding-top: .33rem;
 }
@@ -28,7 +28,7 @@
 .header-search input[type=search] {
     border: none;
     background: transparent;
-    font-family: Novecento Sans Web,sans-serif;
+    font-family:$font_main;
     font-size: 1rem;
     line-height: 1;
     margin-left: .3rem;
@@ -38,12 +38,12 @@
     margin: 0;
     width: 200px;
     outline: none;
+    display: none;
 }
 
-.search-submit{
-  color: #248a83;
-  display: inline-block;
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
+.search-submit {
+    color: #248a83;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 1rem;
 }

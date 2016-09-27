@@ -4,7 +4,6 @@
  *
  * @package RED_Starter_Theme
  */
-
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
@@ -12,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fonts/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() );?>/fonts/font-awesome/css/font-awesome.min.css" >
 
 	<?php wp_head(); ?>
 	</head>
@@ -21,7 +20,7 @@
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
-			<header id="masthead" class="site-header" role="banner">
+			<header id="masthead" class=" site-header " role="banner">
 				<div class="container">
 					<div class="site-branding">
 						<div class="logo">
@@ -32,11 +31,20 @@
 					<nav id="site-navigation" class="main-navigation clearfix" role="navigation">
 						<div class="menu-main-navigation">
 
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?>
+							<?php esc_html( 'Primary Menu' ); ?>
 							</button>
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+							<div class="search-submit">
+
+								<span class="icon-search" aria-hidden="true">
+									<i class="fa fa-search"></i>
+								</span>
+								<span class="screen-reader-text"><?php echo esc_html( 'Search' ); ?></span>
+							
+					       </div>
 
 							<div class="header-search">
+
 							<?php get_search_form(); ?>
 							</div>
 
