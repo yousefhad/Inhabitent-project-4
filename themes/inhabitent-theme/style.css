@@ -18,52 +18,26 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-<<<<<<< HEAD
 /*--------------- TABLE OF CONTENTS: ---------------------------------
 
 # Normalize
 # Fonts
-=======
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Embedded Fonts
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 # Typography
 # Elements
 # Forms
 # Navigation
 	## Links
 	## Menus
-<<<<<<< HEAD
 # Widgets,sidebar
-=======
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 # Content
 	## Posts and pages
 	## Asides
 	## Comments
-<<<<<<< HEAD
 # Page Templates
 	## Front page
 	--------------------------------------*/
 html {
   font-family: sans-serif;
-=======
-# Media
-	## Captions
-	## Galleries
-# Page Templates
-	## Front page
---------------------------------------------------------------*/
-html {
-  font-family: Merriweather, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -161,11 +135,7 @@ code,
 kbd,
 pre,
 samp {
-<<<<<<< HEAD
   font-family: Merriweather Web, serif;
-=======
-  font-family: monospace, monospace;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   font-size: 1em; }
 
 button,
@@ -243,16 +213,8 @@ td,
 th {
   padding: 0; }
 
-<<<<<<< HEAD
 @font-face {
   font-family: 'Merriweather Web';
-=======
-/*--------------------------------------------------------------
-# Embedded Fonts
---------------------------------------------------------------*/
-@font-face {
-  font-family: 'Merriweather';
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   src: url("../../fonts/Merriweather/merriweather-bold-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../../fonts/Merriweather/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather/merriweather-bold-webfont.woff2") format("woff2"), url("../../fonts/Merriweather/merriweather-bold-webfont.woff") format("woff"), url("../../fonts/Merriweather/merriweather-bold-webfont.ttf") format("truetype"), url("../../fonts/Merriweather/merriweather-bold-webfont.svg") format("svg");
@@ -261,11 +223,7 @@ th {
   font-style: normal; }
 
 @font-face {
-<<<<<<< HEAD
   font-family: 'Merriweather Web';
-=======
-  font-family: 'Merriweather';
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   src: url("../../fonts/Merriweather/merriweather-bolditalic-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../../fonts/Merriweather/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather/merriweather-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/Merriweather/merriweather-bolditalic-webfont.woff") format("woff"), url("../../fonts/Merriweather/merriweather-bolditalic-webfont.ttf") format("truetype"), url("../../fonts/Merriweather/merriweather-bolditalic-webfont.svg") format("svg");
@@ -274,11 +232,7 @@ th {
   font-style: italic; }
 
 @font-face {
-<<<<<<< HEAD
   font-family: 'Merriweather Web';
-=======
-  font-family: 'Merriweather';
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   src: url("../../fonts/Merriweather/merriweather-light-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../../fonts/Merriweather/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather/merriweather-light-webfont.woff2") format("woff2"), url("../../fonts/Merriweather/merriweather-light-webfont.woff") format("woff"), url("../../fonts/Merriweather/merriweather-light-webfont.ttf") format("truetype"), url("../../fonts/Merriweather/merriweather-light-webfont.svg") format("svg");
@@ -287,11 +241,7 @@ th {
   font-style: normal; }
 
 @font-face {
-<<<<<<< HEAD
   font-family: 'Merriweather Web';
-=======
-  font-family: 'Merriweather';
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   src: url("../../fonts/Merriweather/merriweather-lightitalic-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../../fonts/Merriweather/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather/merriweather-lightitalic-webfont.woff2") format("woff2"), url("../../fonts/Merriweather/merriweather-lightitalic-webfont.woff") format("woff"), url("../../fonts/Merriweather/merriweather-lightitalic-webfont.ttf") format("truetype"), url("../../fonts/Merriweather/merriweather-lightitalic-webfont.svg") format("svg");
@@ -300,11 +250,7 @@ th {
   font-style: italic; }
 
 @font-face {
-<<<<<<< HEAD
   font-family: 'Novecento Sans Web';
-=======
-  font-family: 'Novecento';
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   src: url("../../fonts/Novecento/Novecentosanswide-Normal-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../../fonts/Novecento/Novecentosanswide-Normal-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Novecento/Novecentosanswide-Normal-webfont.woff2") format("woff2"), url("../../fonts/Novecento/Novecentosanswide-Normal-webfont.woff") format("woff"), url("../../fonts/Novecento/Novecentosanswide-Normal-webfont.ttf") format("truetype"), url("../../fonts/Novecento/Novecentosanswide-Normal-webfont.svg") format("svg");
@@ -313,11 +259,7 @@ th {
   font-style: normal; }
 
 @font-face {
-<<<<<<< HEAD
   font-family: 'Novecento Sans Web';
-=======
-  font-family: 'Novecento';
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   src: url("../../fonts/Novecento/Novecentosanswide-DemiBold-webfont.eot");
   /* IE9 Compat Modes */
   src: url("../../fonts/Novecento/Novecentosanswide-DemiBold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/Novecento/Novecentosanswide-DemiBold-webfont.woff2") format("woff2"), url("../../fonts/Novecento/Novecentosanswide-DemiBold-webfont.woff") format("woff"), url("../../fonts/Novecento/Novecentosanswide-DemiBold-webfont.ttf") format("truetype"), url("../../fonts/Novecento/Novecentosanswide-DemiBold-webfont.svg") format("svg");
@@ -325,46 +267,25 @@ th {
   font-weight: bold;
   font-style: normal; }
 
-<<<<<<< HEAD
-=======
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 body,
 input,
 select,
 textarea {
   color: #404040;
-<<<<<<< HEAD
   font-family: Merriweather Web, serif;
-=======
-  font-family: Merriweather, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.75; }
 
-<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
   font-family: Novecento Sans Web, sans-serif;
-=======
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   clear: both;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
 h1 {
-<<<<<<< HEAD
   font-size: 2.4rem;
   font-weight: 600;
-=======
-  font-size: 2.5rem;
-  font-weight: 400;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 0; }
@@ -373,64 +294,18 @@ h2,
 .entry-title {
   font-weight: bold;
   color: #2f1339;
-<<<<<<< HEAD
   font-size: 2.5rem;
-=======
-  font-size: 2.1rem;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   margin-bottom: 1.5rem; }
 
 h3 {
   font-weight: 300; }
 
-<<<<<<< HEAD
 p {
   font-size: 1.2rem; }
-=======
-/* Copy */
-dfn, cite, em, i {
-  font-style: italic; }
-
-blockquote {
-  margin: 0 1.5rem; }
-
-address {
-  margin: 0 0 1.5rem; }
-
-pre {
-  background: #eee;
-  font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
-  font-size: 0.9375rem;
-  line-height: 1.75;
-  margin-bottom: 1.6em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 1.6em; }
-
-code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
-  font-size: 0.9375rem; }
-
-abbr, acronym {
-  border-bottom: 1px dotted #666;
-  cursor: help; }
-
-mark, ins {
-  background: #fff9c0;
-  text-decoration: none; }
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 
 big {
   font-size: 125%; }
 
-<<<<<<< HEAD
-=======
-/*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -439,19 +314,10 @@ html {
 *,
 *:before,
 *:after {
-<<<<<<< HEAD
   box-sizing: inherit; }
 
 body {
   background: #fff; }
-=======
-  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-  box-sizing: inherit; }
-
-body {
-  background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 
 blockquote, q {
   quotes: "" ""; }
@@ -499,12 +365,6 @@ table {
   margin-right: auto;
   width: 1120px; }
 
-<<<<<<< HEAD
-=======
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 /* Buttons */
 button,
 input[type="button"],
@@ -515,11 +375,7 @@ input[type="submit"],
   color: #fff;
   border-radius: 0;
   cursor: pointer;
-<<<<<<< HEAD
   font-family: Novecento Sans Web, sans-serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   font-size: 1rem;
   line-height: 1;
   padding: .75rem 1.5rem;
@@ -568,11 +424,7 @@ input[type="submit"],
   border-radius: 0;
   color: #000;
   cursor: poiter;
-<<<<<<< HEAD
   font-family: Novecento Sans Web, sans-serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   font-size: .9rem;
   line-height: 1;
   padding: .75rem 1.5rem;
@@ -606,11 +458,7 @@ input[type="submit"],
   width: 130px;
   padding: .5rem;
   text-align: center;
-<<<<<<< HEAD
   font-family: Novecento Sans Web, sans-serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   background-color: transparent;
   text-transform: uppercase;
   border: 1px solid #fff;
@@ -632,18 +480,13 @@ input[type="submit"],
   width: 130px;
   padding: .7rem 1.5rem;
   text-align: center;
-<<<<<<< HEAD
   font-family: Novecento Sans Web, sans-serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   background-color: transparent;
   text-transform: uppercase;
   border: 1px solid #fff;
   color: #fff; }
   .adventures-read-more:hover,
   .adventures-read-more a:hover {
-<<<<<<< HEAD
     background-color: #248a83;
     color: #fff;
     border: none; }
@@ -654,18 +497,6 @@ input[type="submit"],
     background-color: #248a83;
     color: #fff;
     border: none; }
-=======
-    background-color: #248a83;
-    color: #fff;
-    border: none; }
-  .adventures-read-more:active,
-  .adventures-read-more a:active, .adventures-read-more:focus,
-  .adventures-read-more a:focus, .adventures-read-more:visited,
-  .adventures-read-more a:visited {
-    background-color: #248a83;
-    color: #fff;
-    border: none; }
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 
 /* Fields */
 input[type="text"],
@@ -714,11 +545,7 @@ a {
 
 /* Menus */
 .main-navigation {
-<<<<<<< HEAD
   font-family: Novecento Sans Web, sans-serif;
-=======
-  font-family: Novecento;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   clear: both;
   text-transfrom: uppercase; }
   .main-navigation ul {
@@ -754,21 +581,12 @@ a {
     display: block;
     text-decoration: none;
     color: #248a83; }
-<<<<<<< HEAD
 
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block; }
 
-=======
-
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-  display: block; }
-
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 @media screen and (min-width: 600px) {
   .menu-toggle {
     display: none; }
@@ -832,19 +650,9 @@ a {
   content: "";
   display: table; }
 
-<<<<<<< HEAD
 /*------------------------ Sidebar Widget  ---------------*/
 .textwidget p:hover {
   color: #f0e4d1; }
-=======
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-.textwidget p {
-  color: #248a83; }
-  .textwidget p p:hover {
-    color: #f0e4d1; }
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 
 .widget-area {
   padding-left: 5%;
@@ -858,7 +666,6 @@ a {
 .widget-title {
   font-size: 1.4rem; }
 
-<<<<<<< HEAD
 .contact1 i {
   line-height: 1.8;
   margin-right: 0.7rem;
@@ -867,16 +674,6 @@ a {
 .day-of-week {
   font-size: 1rem;
   font-weight: bold; }
-=======
-.contact-widget i {
-  line-height: 1.8;
-  margin-right: .5rem;
-  width: 16px; }
-
-.day-of-week {
-  font-size: 1.1rem;
-  font-weight: 900; }
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 
 .widget_archive {
   margin-top: 3rem; }
@@ -885,12 +682,6 @@ a {
     .widget_archive ul h2 {
       font-size: 1.4rem; }
 
-<<<<<<< HEAD
-=======
-/*--------------------------------------------------------------
-# Content
---------------------------------------------------------------*/
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 /* Posts and pages */
 .sticky {
   display: block; }
@@ -925,76 +716,8 @@ a {
 
 .bypostauthor {
   display: block; }
-<<<<<<< HEAD
 
 /*----------------- Shop Page (Archive-Product) -----------------*/
-=======
-
-/*--------------------------------------------------------------
-# Media
---------------------------------------------------------------*/
-.page-content .wp-smiley,
-.entry-content .wp-smiley,
-.comment-content .wp-smiley {
-  border: none;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 0; }
-
-/* Make sure embeds and iframes fit their containers. */
-embed,
-iframe,
-object {
-  max-width: 100%; }
-
-/* Captions */
-.wp-caption {
-  margin-bottom: 1.5rem;
-  max-width: 100%; }
-  .wp-caption img[class*="wp-image-"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  .wp-caption .wp-caption-text {
-    margin: 0.8075em 0; }
-
-.wp-caption-text {
-  text-align: center; }
-
-/* Galleries*/
-.gallery {
-  margin-bottom: 1.5rem; }
-
-.gallery-item {
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  width: 100%; }
-  .gallery-columns-2 .gallery-item {
-    max-width: 50%; }
-  .gallery-columns-3 .gallery-item {
-    max-width: 33.33%; }
-  .gallery-columns-4 .gallery-item {
-    max-width: 25%; }
-  .gallery-columns-5 .gallery-item {
-    max-width: 20%; }
-  .gallery-columns-6 .gallery-item {
-    max-width: 16.66%; }
-  .gallery-columns-7 .gallery-item {
-    max-width: 14.28%; }
-  .gallery-columns-8 .gallery-item {
-    max-width: 12.5%; }
-  .gallery-columns-9 .gallery-item {
-    max-width: 11.11%; }
-
-.gallery-caption {
-  display: block; }
-
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
-/*///////////// Shop Page (Archive-Product) /////////////*/
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 .archive-product-area {
   padding-top: 4.5rem; }
 
@@ -1003,24 +726,16 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-<<<<<<< HEAD
   font-weight: 400;
   text-transform: uppercase;
   font-size: 1.2rem;
-=======
-  font-family: Novecento;
-  font-size: 1.5rem;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   padding-bottom: 1.5rem; }
   .shop-nav-container a {
     margin: 0 1rem; }
 
-<<<<<<< HEAD
 .shop-nav {
   font-family: Novecento Sans Web, sans-serif; }
 
-=======
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 .page-header {
   border-bottom: 1px dashed #e1e1e1;
   margin-bottom: 40px;
@@ -1050,7 +765,6 @@ object {
 
 .product-title {
   background: #fff;
-<<<<<<< HEAD
   display: inline;
   font-size: 16px;
   font-size: 1rem;
@@ -1060,25 +774,14 @@ object {
   line-height: 1.75;
   padding-right: .25rem;
   text-transform: none; }
-=======
-  padding-right: .25rem;
-  display: inline;
-  font-size: .9rem; }
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 
 .product-title:before {
   float: left;
   width: 0px;
   white-space: nowrap;
-<<<<<<< HEAD
   content: ".................................................."; }
 
 .product-grid-item .price {
-=======
-  content: ".............................."; }
-
-.price {
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   float: right;
   padding-left: .25rem;
   background: #fff; }
@@ -1114,11 +817,7 @@ object {
   color: #d99054; }
 
 .single-price {
-<<<<<<< HEAD
   font-family: Merriweather Web, serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   font-size: 1.7rem;
   margin-top: 0;
   text-transform: uppercase; }
@@ -1182,11 +881,7 @@ object {
 
 /*///////////// Single Blog Posts (single journal) ///////////// */
 .entry-footer {
-<<<<<<< HEAD
   font-family: Merriweather Web, serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   text-transform: uppercase; }
 
 .cat-links {
@@ -1212,11 +907,7 @@ object {
   font-size: 1.8rem; }
 
 .comment-form label {
-<<<<<<< HEAD
   font-family: Merriweather Web, serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   text-transform: uppercase; }
 
 .comment-form textarea {
@@ -1290,11 +981,7 @@ object {
 
 .adventure-author {
   text-transform: uppercase;
-<<<<<<< HEAD
   font-family: Merriweather Web, serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   font-size: 1.2rem;
   margin-bottom: 1.5rem; }
 
@@ -1325,7 +1012,6 @@ object {
   content: "";
   float: left;
   padding-top: 100%; }
-<<<<<<< HEAD
 
 .adventure-wrapper {
   display: block;
@@ -1373,55 +1059,6 @@ object {
   font-weight: bold;
   text-align: left; }
 
-=======
-
-.adventure-wrapper {
-  display: block;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  top: 0; }
-
-.adventure-images img {
-  left: 50%;
-  max-height: 550px;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10; }
-
-.adventure-header {
-  margin: 4.5rem 1.5rem;
-  position: absolute;
-  z-index: 20; }
-
-.adventures-title {
-  font-size: 3rem;
-  font-weight: 400;
-  margin-bottom: 4.5rem; }
-  .adventures-title a {
-    color: #fff; }
-    .adventures-title a:hover, .adventures-title a:focus {
-      color: #f0e4d1; }
-
-/*///////////// 404 Page ///////////// */
-.widgettitle {
-  font-size: 1.5rem; }
-
-.widget_recent_entries ul,
-.widget_categories ul {
-  padding-left: 0; }
-
-.error-title {
-  font-size: 2.3rem;
-  font-weight: bold;
-  text-align: left; }
-
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 /*///////////// Search Result Page ///////////// */
 .search-header {
   border-bottom: 1px solid #e1e1e1; }
@@ -1437,11 +1074,7 @@ object {
 .search-pagination .page-numbers {
   background-color: #248a83;
   padding: .5rem 1rem;
-<<<<<<< HEAD
   font-family: Merriweather Web, serif;
-=======
-  font-family: Novecento, sans-serif;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   text-transform: uppercase;
   color: #fff; }
 
@@ -1465,21 +1098,18 @@ object {
       justify-content: space-between;
   text-transform: uppercase; }
 
-<<<<<<< HEAD
-.change-header {
+.site-header .change-background {
   background-color: transparent;
   border-bottom: 0;
   position: absolute;
   text-shadow: 1px 1px 2px #323232;
   margin-top: 10px; }
-  .change-header h1 {
+  .site-header .change-background h1 {
     background: url(../../images/logos/inhabitent-logo-tent-white.svg) no-repeat;
     background-size: 50px 33px; }
-  .change-header a {
+  .site-header .change-background a {
     color: #fff; }
 
-=======
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 .site-header h1 {
   background: url(../../images/logos/inhabitent-logo-tent.svg) no-repeat;
   background-size: 50px 30px;
@@ -1509,14 +1139,9 @@ object {
 
 .footer-blocks h3 {
   color: #d99054;
-<<<<<<< HEAD
   font-size: 1.3rem;
   margin-bottom: 1rem;
   font-weight: 500;
-=======
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
   text-transform: uppercase; }
 
 .contact a {
@@ -1541,13 +1166,8 @@ object {
   max-width: 50%; }
 
 .contact-meta i {
-<<<<<<< HEAD
   margin-right: .3rem;
   font-size: 1.4rem; }
-=======
-  margin-right: .6rem;
-  font-size: 1.3rem; }
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 
 .front-area {
   padding-top: 0;
@@ -1648,11 +1268,7 @@ object {
   margin-top: 0;
   margin-bottom: 1.5rem; }
 
-<<<<<<< HEAD
 /*********** Latest Adventures **********/
-=======
-/*///// Latest Adventures /////*/
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 .inhabitent-adventures {
   margin-bottom: 3rem; }
 
@@ -1665,30 +1281,12 @@ object {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   margin-bottom: 1rem; }
-<<<<<<< HEAD
 
 .adventure-wrapper-one {
   position: relative; }
   .adventure-wrapper-one img {
     height: 520px;
     display: block; }
-
-.header-one {
-=======
-
-.adventure-wrapper-one {
-  position: relative; }
-  .adventure-wrapper-one img {
-    height: 520px;
-    display: block; }
-  .adventure-wrapper-one:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.35);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; }
 
 .header-one {
   display: -ms-flexbox;
@@ -1714,57 +1312,6 @@ object {
       flex-direction: column;
   position: absolute;
   z-index: 10;
-  margin: 1rem;
-  width: 450px; }
-  .header-two .title-two {
-    font-size: 2rem;
-    line-height: 1.5;
-    color: #fff;
-    margin-bottom: 2rem; }
-    .header-two .title-two:hover, .header-two .title-twofocus {
-      color: #f0e4d1; }
-
-.header-three {
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  position: absolute;
-  z-index: 10;
-<<<<<<< HEAD
-  margin: 2rem;
-  width: 450px; }
-  .header-one .title-one {
-    font-size: 3rem;
-    line-height: 1.2;
-    color: #fff;
-    margin-bottom: 2rem; }
-    .header-one .title-one:hover, .header-one .title-onefocus {
-      color: #f0e4d1; }
-
-.header-two {
-=======
-  margin-top: 1rem;
-  padding: 2rem;
-  width: 235px; }
-  .header-three .title-three {
-    font-size: 1.3rem;
-    line-height: 1.4;
-    color: #fff;
-    margin-bottom: 1rem; }
-    .header-three .title-three:hover, .header-three .title-threefocus {
-      color: #f0e4d1; }
-
-.header-four {
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  position: absolute;
-  z-index: 10;
-<<<<<<< HEAD
   margin: 1rem;
   width: 450px; }
   .header-two .title-two {
@@ -1909,117 +1456,6 @@ object {
   outline: none;
   display: none; }
 
-=======
-  padding: 1.5rem;
-  width: 235px; }
-  .header-four .title-four {
-    font-size: 1.5rem;
-    line-height: 1.5;
-    color: #fff;
-    margin-bottom: 2rem; }
-    .header-four .title-four:hover, .header-four .title-fourfocus {
-      color: #f0e4d1; }
-
-.left-box {
-  width: 49.5%; }
-
-.right-box {
-  width: 49%; }
-
-.adventure-wrapper-two {
-  position: relative; }
-  .adventure-wrapper-two img {
-    display: block;
-    height: 250px; }
-  .adventure-wrapper-two:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.35);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; }
-
-.bottom-box {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  margin-top: 1rem; }
-
-.adventure-wrapper-three {
-  position: relatvie;
-  width: 48.5%; }
-  .adventure-wrapper-three img {
-    height: 255px;
-    display: block; }
-  .adventure-wrapper-three:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.35);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; }
-
-.adventure-wrapper-four {
-  position: relative;
-  width: 48.5%; }
-  .adventure-wrapper-four img {
-    height: 255px;
-    display: block; }
-  .adventure-wrapper-four:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.35);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; }
-
-.more-adventures {
-  font-size: 1.2rem; }
-
-.menu-main-navigation {
-  display: -ms-flexbox;
-  display: flex; }
-
-.header-search {
-  color: #248a83;
-  padding-top: .33rem; }
-
-.header-search {
-  padding-left: 1rem;
-  margin-top: 0;
-  padding-top: 0; }
-
-.search-form {
-  margin: 0; }
-  .search-form fieldset {
-    border: none;
-    outline-style: none;
-    width: auto;
-    margin: 0;
-    padding: 0; }
-
-.header-search input[type=search] {
-  border: none;
-  background: transparent;
-  font-family: Novecento Sans Web,sans-serif;
-  font-size: 1rem;
-  line-height: 1;
-  margin-left: .3rem;
-  padding: 0 .5rem;
-  text-transform: uppercase;
-  border-radius: 0;
-  margin: 0;
-  width: 200px;
-  outline: none;
-  display: none; }
-
->>>>>>> f0bc35d72707ac5bb2fbddc4e1af97f405f981f5
 .search-submit {
   color: #248a83;
   display: inline-block;
