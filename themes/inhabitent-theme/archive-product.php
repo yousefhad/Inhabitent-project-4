@@ -14,9 +14,6 @@ get_header(); ?>
 			<div class="page-header">
 		    <h1>shop stuff</h1>
 		    
-
-
-
         <div class="shop-nav-container">
         
 		      <nav class="shop-nav">
@@ -27,7 +24,6 @@ get_header(); ?>
 		      </nav>
 		    </div>
 		  </div>
-
       <div class="product-grid">
         <?php
            $args = array( 'post_type' => 'product',
@@ -42,6 +38,7 @@ get_header(); ?>
             <a href='<?php echo esc_url( get_permalink() ); ?>'>
               <?php if ( has_post_thumbnail() ) : ?>
                 <?php the_post_thumbnail( 'large' ); ?>
+               
                 
               <?php endif; ?>
             </a>

@@ -16,10 +16,11 @@ get_header(); ?>
 				<header class="entry-header">
 					<?php if ( has_post_thumbnail() ) : ?>
 						<?php the_post_thumbnail( 'full' ); ?>
+
 					<?php endif; ?>
 
 					<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
-
+                     
 					<div class="entry-meta">
 						<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
 					</div><!-- .entry-meta -->
@@ -28,6 +29,8 @@ get_header(); ?>
 				<div class="entry-content">
 
 						<?php the_content(); ?>
+
+						
 
 
 					<footer class="entry-footer">

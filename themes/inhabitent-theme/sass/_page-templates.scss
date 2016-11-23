@@ -439,3 +439,27 @@ text-transform: none;
 .search-pagination a:hover, a:active{
   background-color: #2f1339;
 }
+/************************* services page ***/
+
+ .all-davent{
+overflow: hidden;
+display: inline-block;
+height: 500px;
+display: flex;
+flex-wrap: nowrap;
+}
+.adventures-img img{
+  height:80%;
+  width:80%;
+
+}
+.adventures-img{
+
+  height:200px;
+  width:23%;
+float:left;
+
+}
+.info-rab{
+height: 200px;
+}

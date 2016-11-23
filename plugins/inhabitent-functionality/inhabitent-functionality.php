@@ -55,5 +55,10 @@ include_once( RF_DIR . '/lib/functions/taxonomies.php' );
  * @since 1.0.0
  */
 include_once( RF_DIR . '/lib/functions/adventures.php' );
-
+/**
+ * Adventures
+ *
+ * @since 1.0.0
+ */
+include_once( RF_DIR . '/lib/functions/services.php' );
 

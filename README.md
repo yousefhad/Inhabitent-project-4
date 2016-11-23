@@ -2,7 +2,7 @@
 
 <h2>Summary</h2>
 ###
-Inhabitent is a Wordpress website created with a custom theme. The website has custom widgets, 
+Inhabitent is a Wordpress website created with a customized theme . The website has custom widgets, 
 taxonomy types, and custom post types.
 
 ##Languages and tools used:
