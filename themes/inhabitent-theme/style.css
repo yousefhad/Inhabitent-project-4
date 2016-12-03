@@ -1081,28 +1081,6 @@ a {
 .search-pagination a:hover, a:active {
   background-color: #2f1339; }
 
-/************************* services page ***/
-.all-davent {
-  overflow: hidden;
-  display: inline-block;
-  height: 500px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap; }
-
-.adventures-img img {
-  height: 80%;
-  width: 80%; }
-
-.adventures-img {
-  height: 200px;
-  width: 23%;
-  float: left; }
-
-.info-rab {
-  height: 200px; }
-
 .site-header {
   background-color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid #e1e1e1;

@@ -16,16 +16,16 @@ get_header(); ?>
 <!-- Shop Stuff -->
 	<section class="shop-stuff">
 
-		<!-- <?php get_template_part( 'template-main-page/content', 'front-shop' ); ?>
+		<?php get_template_part( 'template-main-page/content', 'front-shop' ); ?>
 
 					<?php get_template_part( 'template-main-page/content', 'front-blog' ); ?>
 
-					<?php get_template_part( 'template-main-page/content', 'front-adventure' ); ?> -->
+					<?php get_template_part( 'template-main-page/content', 'front-adventure' ); ?>
 
 			<div class="product-info container" >
 				<h1>shop stuff</h1>
 				<div class="product-type-blocks">
-					<?php $terms = get_terms( array( 'taxonomy' => 'product-type','items_list'                 => 'Product Types list'));?>
+					<?php $terms = get_terms( array( 'taxonomy' => 'product-type'));?>
 						<?php foreach ($terms as $term) : ?>
 							<div class="product-type-wrapper">
 					    <img class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product-type-icons/<?php echo $term->slug ?>.svg" alt="product-type" >
@@ -76,15 +76,10 @@ get_header(); ?>
 													   'order' => 'ASC');
 							 $adventure_posts = get_posts($args); ?>
 
-
-
-
-
 			<div class="latest-adventures">
 				<div class="left-box">
 					<div class="adventure-wrapper-one">
-					<div class="header-one"><a class="title-one" href="<?php echo $adventure_posts[0]->guid;?>"> 
-					<?php echo $adventure_posts[0]->post_title; ?></a>
+					<div class="header-one"><a class="title-one" href="<?php echo $adventure_posts[0]->guid;?>"><?php echo $adventure_posts[0]->post_title; ?></a>
 					<a class="adventure-read-more" href="<?php echo $adventure_posts[0]->guid;?>">Read More</a></div>
 					<?php echo get_the_post_thumbnail($adventure_posts[0]->ID, 'large');?>
 					</div>
@@ -108,7 +103,6 @@ get_header(); ?>
 						<div class="header-four"><a class="title-four" href="<?php echo $adventure_posts[3]->guid;?>"><?php echo $adventure_posts[3]->post_title; ?></a>
 						<a class="adventure-read-more" href="<?php echo $adventure_posts[3]->guid;?>">Read More</a></div>
 						<?php echo get_the_post_thumbnail($adventure_posts[3]->ID, 'large');?>
-
 						</div>
 					</div> <!--bottom-box-->
 				</div> <!--right-box-->
